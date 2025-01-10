@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@prisma/client": "^6.2.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node": "^23.5.0",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.2.0"
+  },
+  "name": "deadline060125",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
